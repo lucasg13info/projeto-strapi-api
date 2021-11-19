@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postagems",
+  "info": {
+    "name": "postagem",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Data": {
+      "type": "date"
+    }
+  }
+}
